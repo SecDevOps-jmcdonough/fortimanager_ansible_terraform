@@ -4,6 +4,6 @@ resource "fortimanager_packages_pkg" "packages_pkg" {
 
   scopemember {
     name = "sgate"
-    vdom = "root"
+    vdom = "FortiOS-76"
   }
 }

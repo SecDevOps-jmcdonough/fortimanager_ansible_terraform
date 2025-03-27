@@ -14,9 +14,5 @@ provider "fortimanager" {
   insecure = "true"
 
   scopetype = "adom"
-  adom      = "FortiOS-72"
+  adom      = "FortiOS-76"
 }
-
-#resource "fortimanager_system_global" "system_global" {
-#  workspace_mode = "disable"
-#}
